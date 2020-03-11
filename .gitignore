@@ -21,15 +21,15 @@
 ## Dependency directory
 ## Commenting this out is preferred by some people, see
 ## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+docs/node_modules
 
 # Book build output
-_book
+docs/_book
 
 # eBook build output
-*.epub
-*.mobi
-*.pdf
+docs/*.epub
+docs/*.mobi
+docs/*.pdf
 
 ### macOS ###
 # General
@@ -117,7 +117,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # package-lock.json
-package-lock.json
-    
+docs/package-lock.json
+
 # public
 public/
