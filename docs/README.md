@@ -6,10 +6,8 @@
 - [![GitLab](https://img.shields.io/badge/GitLab-snowdreams1006.gitlab.io-brightgreen.svg)](https://snowdreams1006.gitlab.io/figure-bed/)
 
 ```markdown
-![雪之梦技术驿站](https://img.snowdreams1006.cn/snowdreams1006-wechat-open.png)
-![雪之梦技术驿站](https://snowdreams1006.gitee.io/figure-bed/snowdreams1006-wechat-open.png)
-![雪之梦技术驿站](https://snowdreams1006.github.io/figure-bed/snowdreams1006-wechat-open.png)
-![雪之梦技术驿站](https://snowdreams1006.gitlab.io/figure-bed/snowdreams1006-wechat-open.png)
+![雪之梦技术驿站](https://img.snowdreams1006.cn/images/snowdreams1006-wechat-open.png)
+![雪之梦技术驿站](https://snowdreams1006.gitee.io/figure-bed/images/snowdreams1006-wechat-open.png)
+![雪之梦技术驿站](https://snowdreams1006.github.io/figure-bed/images/snowdreams1006-wechat-open.png)
+![雪之梦技术驿站](https://snowdreams1006.gitlab.io/figure-bed/images/snowdreams1006-wechat-open.png)
 ```
-
-![雪之梦技术驿站](snowdreams1006-wechat-open.png)
