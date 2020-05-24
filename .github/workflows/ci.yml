@@ -10,8 +10,9 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: "12.x"
-    - name: Build img
+    - name: Build img.snowdreams1006.cn
       run: |
+        cd docs
         npm install -g gitbook-cli
         gitbook install
         gitbook build
