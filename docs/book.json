@@ -1,0 +1,37 @@
+{
+    "title": "雪之梦技术驿站图床",
+    "author": "snowdreams1006",
+    "description": "雪之梦技术驿站图床,详情请访问 https://img.snowdreams1006.cn/",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "links": {
+        "sidebar": {
+            "技术博客": "https://snowdreams1006.tech/"
+        }
+    },
+    "plugins": [
+        "donate",
+        "icp",
+        "hide-element"
+    ],
+    "pluginsConfig": {
+        "favicon-absolute": {
+            "favicon": "/favicon.ico",
+            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png"
+        },
+        "donate": {
+            "wechat": "/wechat.jpg",
+            "alipay": "/alipay.jpg",
+            "title": "",
+            "button": "赏",
+            "alipayText": "支付宝",
+            "wechatText": "微信"
+        },
+        "icp": {
+            "number": "浙ICP备18042346号"
+        },
+        "hide-element": {
+            "elements": ["a.gitbook-link[href='https://www.gitbook.com']"]
+        }
+    }
+}

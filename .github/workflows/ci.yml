@@ -1,0 +1,24 @@
+name: img.snowdreams1006.cn
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: "12.x"
+    - name: Build img
+      run: |
+        npm install -g gitbook-cli
+        gitbook install
+        gitbook build
+    - uses: manyuanrong/setup-ossutil@v1.0
+      with:
+        endpoint: oss-cn-beijing.aliyuncs.com
+        access-key-id: ${{ secrets.ALI_ACCESS_KEY_ID }}
+        access-key-secret: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+    - name: Upload files to aliyun oss
+      run: ossutil cp -rf ./_book oss://snowdreams1006-figure-bed/

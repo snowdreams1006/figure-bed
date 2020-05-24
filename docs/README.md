@@ -1,13 +1,7 @@
-# figure-bed
+# 雪之梦技术驿站图床
 
-> [雪之梦技术驿站公开图床](https://snowdreams1006.github.io/)
+```markdown
+![雪之梦技术驿站](snowdreams1006-wechat-open.png)
+```
 
-## public images
-
-## svg
-
-![simple-mind-map-index-use-preview.svg](https://snowdreams1006.github.io/figure-bed/images/simple-mind-map-index-use-preview.svg)
-
-## png
-
-![20200311145016.png](https://snowdreams1006.github.io/figure-bed/images/20200311145016.png)
+![雪之梦技术驿站](snowdreams1006-wechat-open.png)
